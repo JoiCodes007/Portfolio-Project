@@ -1,0 +1,31 @@
+
+body { 
+background-color: rgb(233, 184, 216);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: cornsilk;
+}
+
+.dark-mode{
+    background-color: dark rgb(70, 4, 70); 
+    color: rgb(25, 2, 43);
+}
+
+
+h1 { 
+    text-align: center;
+    color: rgb(201, 78, 143);
+}
+
+
+
+img {
+
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+}
+
+
+
