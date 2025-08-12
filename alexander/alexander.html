@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alexander Ross — Portfolio</title>
+    <meta name="description" content="Portfolio of Alexander Ross: experience, goals, and interests." />
+    <script>
+      // Configure Tailwind and use darkmode
+      window.tailwind = { config: { darkMode: 'class' } };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Also set config after load to be extra-safe in preview environments
+      try { tailwind.config = { darkMode: 'class' }; } catch (_) {}
+    </script>
+    <link rel="stylesheet" href="./alexander.css" />
+  </head>
+  <body class="min-h-dvh bg-white text-slate-900 dark:bg-neutral-900 dark:text-neutral-100">
+    <header class="border-b bg-neutral-100 dark:bg-neutral-800">
+      <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div>
+          <h1 class="text-2xl font-bold">Alexander Ross</h1>
+          <p class="text-sm text-slate-600 dark:text-neutral-300">Developer • Lifelong Learner • Problem Solver</p>
+        </div>
+        <button id="theme-toggle" class="border px-2 py-1 rounded text-sm hover:border-blue-600 dark:hover:border-blue-400 transition-colors" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+          <span class="icon" aria-hidden="true">🌙</span>
+          <span class="label">Dark mode</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4">
+      <section id="about" class="border rounded p-4 my-3 bg-white dark:bg-neutral-900">
+        <div class="grid grid-cols-1 md:grid-cols-[160px,1fr] gap-4 items-start">
+          <img
+            class="w-40 h-40 object-cover rounded border-2 border-neutral-300 dark:border-neutral-700"
+            src="alexander.png"
+            alt="Portrait of Alexander Ross"
+            width="240"
+            height="240"
+          />
+          <div>
+            <h2 class="text-lg font-bold mb-2">About</h2>
+            <p class="mb-3">
+              Hi! I’m Alexandeer Ross. I (Insert intro about myself)
+            </p>
+            <ul class="list-none p-0 m-0 space-y-1 text-sm text-slate-600 dark:text-neutral-300">
+              <li><span class="font-semibold text-inherit">Location</span>: SanFrancisco, CA</li>
+              <li><span class="font-semibold text-inherit">Email</span>: alexander.ross2003@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="border rounded p-4 my-3 bg-white dark:bg-neutral-900">
+        <h2 class="text-lg font-bold mb-3">Experience</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="space-y-3">
+            <h3 class="font-semibold">Academic</h3>
+            <article class="border rounded p-3">
+              <header class="mb-1">
+                <h4 class="font-semibold">B.S. in Computer Science</h4>
+                <div class="text-sm text-slate-600 dark:text-neutral-300">Loyola University Chicago • Expected Graduation: 2026</div>
+              </header>
+              <ul class="list-disc pl-5 space-y-1">
+                <li>Focused on software engineering, data structures, and app development.</li>
+                <li>Completed capstone on building a full‑stack web application.</li>
+              </ul>
+            </article>
+            <article class="border rounded p-3">
+              <header class="mb-1">
+                <h4 class="font-semibold">Relevant Coursework</h4>
+                <div class="text-sm text-slate-600 dark:text-neutral-300">"Get from resume</div>
+              </header>
+              <ul class="list-disc pl-5 space-y-1">
+                <li>Description</li>
+              </ul>
+            </article>
+          </div>
+          <div class="space-y-3">
+            <h3 class="font-semibold">Professional</h3>
+            <article class="border rounded p-3">
+              <header class="mb-1">
+                <h4 class="font-semibold">Job Title</h4>
+                <div class="text-sm text-slate-600 dark:text-neutral-300">Company Name • Year – Year</div>
+              </header>
+              <ul class="list-disc pl-5 space-y-1">
+                <li>Description.</li>
+              </ul>
+            </article>
+            <article class="border rounded p-3">
+              <header class="mb-1">
+                <h4 class="font-semibold">Job title</h4>
+                <div class="text-sm text-slate-600 dark:text-neutral-300">Company Name • YYYY – YYYY</div>
+              </header>
+              <ul class="list-disc pl-5 space-y-1">
+                <li>Description</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="goals" class="border rounded p-4 my-3 bg-white dark:bg-neutral-900">
+        <h2 class="text-lg font-bold mb-2">Educational & Career Goals</h2>
+        <ul class="list-disc pl-5 space-y-1">
+          <li>List</li>
+        </ul>
+      </section>
+
+      <section id="hobbies" class="border rounded p-4 my-3 bg-white dark:bg-neutral-900">
+        <h2 class="text-lg font-bold mb-2">Hobbies</h2>
+        <ul class="flex flex-wrap gap-2 p-0 m-0 list-none">
+          <li class="rounded border px-2 py-1 text-sm bg-neutral-100 dark:bg-neutral-800">Copy this line and chnage text</li>
+        </ul>
+      </section>
+    </main>
+    <script src="./alexander.js" defer></script>
+  </body>
+  </html>
+
+
