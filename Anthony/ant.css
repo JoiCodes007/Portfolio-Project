@@ -105,3 +105,50 @@ nav a:hover {
     transform: translateY(-10px);
     background: #2a2a2a;
 }
+
+body.light-mode {
+    background: #f9f9f9;
+    color: #222;
+}
+
+body.light-mode header {
+    background: #e9e9e9;
+}
+
+body.light-mode nav a {
+    color: #222;
+}
+
+body.light-mode .me {
+    background: #f0f0f0;
+    color: #222;
+}
+
+body.light-mode .highlight {
+    color: #0077cc;
+}
+
+body.light-mode #goals {
+    background: #ffffff;
+}
+
+body.light-mode .goals-card {
+    background: #f2f2f2;
+}
+
+body.light-mode #exp {
+    background: #f7f7f7;
+}
+
+#theme-toggle {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+#theme-toggle:hover {
+    transform: rotate(20deg);
+}
