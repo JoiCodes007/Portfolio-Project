@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony's Portfolio</title>
+    <link rel="stylesheet" href="ant.css">
+</head>
+<body>
+
+    <!-- My navigator so u can go to dif sections -->
+    <header>
+        <nav>
+            <h1 class="logo">MyPortfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Goals">Goals</a></li>
+                <li><a href="#Exp">Exp</a></li>
+            </ul>
+            <button id="theme-toggle">🌄</button>
+        </nav>
+    </header>
+
+    <!--About Me section that i need to work on--> 
+    <section id="home" class="me">
+        <h2>Hey, I'm <span class="highlight">Anthony</span></h2>
+        <p>I'm 17 years old at getting my education at Encinal High School. I am Mexican-American. I play football and run track. I would like to be able to study Data Science in College.</p>
+        <button onclick="scrollToSection('Goals')">View My Goals</button>
+    </section>
+
+    <!-- This will be my goals section -->
+    <section id="Goals">
+        <h2>My Goals</h2>
+        <div class="goals">
+            <div class="goals-card">
+                <h3>Goal One</h3>
+                <p>Go to a good College pereferably UCSD.</p>
+            </div>
+            <div class="goals-card">
+                <h3>Goal Two</h3>
+                <p>Graduate and be able to get a good job.</p>
+            </div>
+            <div class="goals-card">
+                <h3>Goal Three</h3>
+                <p>Be able to have a happy life and travel the world.</p>
+            </div>
+        </div>
+    </section>
+    <!--This will be my experiance tab-->
+    <section id="Exp">
+        <h2>Experiance</h2>
+        <div class="exp">
+            <div class="item">
+                <div class="date">2024-Present</div>
+                <div class="content">
+                    <h3>Hack the Hood</h3>
+                    <p>Learned about data analytics and how to use it to find information. Also learned html, js, css to build websties</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="date">2024-Present</div>
+                <div class="content">
+                    <h3>Key Club Vice President</h3>
+                    <p>Help lead a club with 50+ members. Oversee a board of 5 officers. Set up fundraisers and service events. Raised earnigns by 1500%</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="date">2023-Present</div>
+                <div class="content">
+                    <h3>Peer Tutor</h3>
+                    <p>Tutor fellow students afterschool in varius subjects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="Ant.js"></script>
+</body>
+</html>
