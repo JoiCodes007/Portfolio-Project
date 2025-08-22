@@ -80,7 +80,7 @@ nav a:hover {
     background: #009e8e;
 }
 
-#goals {
+#Goals {
     padding: 50px 20px;
     background: #181818;
     text-align: center;
@@ -128,7 +128,7 @@ body.light-mode .highlight {
     color: #0077cc;
 }
 
-body.light-mode #goals {
+body.light-mode #Goals {
     background: #ffffff;
 }
 
@@ -151,4 +151,51 @@ body.light-mode #exp {
 
 #theme-toggle:hover {
     transform: rotate(20deg);
+}
+
+#Exp {
+    padding: 50px 20px;
+    background: #181818;
+    text-align: center;
+}
+body.light-mode #Exp {
+    background:#ffffff;
+}
+.exp{
+    position: relative;
+    margin: 40px auto;
+    max-width: 700px;
+    padding-left: 20px;
+    border-left: 3px solid #00d1b2;
+}
+.item{
+    margin: 20px 0;
+    position: relative;
+}
+.date  {
+    font-weight: bold;
+    color: #00d1b2;
+    margin-bottom: 5px;
+}
+.content{
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+.content:hover{
+    transform: translateX(5px);
+    background:#2a2a2a;
+}
+
+body.light-mode .exp {
+    border-left: 3px solid #0077cc;
+}
+
+body.light-mode .date {
+    color: #0077cc;
+}
+
+body.light-mode .content {
+    background: #f2f2f2;
 }
