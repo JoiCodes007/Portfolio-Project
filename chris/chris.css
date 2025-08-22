@@ -1,8 +1,61 @@
 body{
     background-color:#94bcab;
+    padding-left: 10px;
+    padding-right: 20px;
     color: #243e33;
     font-family:'Times New Roman', Times, serif
 }
-img{
+.dark-mode{
+    background-color: #243e33; 
+    color: #94bcab;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 100 px;
+    align-items:center;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background-color: rgb(172, 222, 203);
+    border: 1px solid #021e12;    
+    border-radius: 10px;
+}
+.head{
+    padding: 4px;
+    color: #021e12;
+    font-size:18px;
+}
+a:hover{
+    color: rgb(67, 113, 86)
+}
+
+#darkModeImg{
+    height: 25px;
+    width: 25px;
+}
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+}
+#chrisIRL{
     width: 200px;
+    border: 1px solid #021e12;
+    border-radius: 12px;
+}
+.artwork{
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid #243e33;
+}
+
+.baking{
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid #243e33;
+}
+#menuImg {
+    height:30px
 }
