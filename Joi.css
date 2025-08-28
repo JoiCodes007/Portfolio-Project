@@ -5,16 +5,18 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: cornsilk;
 }
 
-.dark-mode{
-    background-color: dark rgb(70, 4, 70); 
-    color: rgb(25, 2, 43);
-}
-
-
 h1 { 
     text-align: center;
-    color: rgb(201, 78, 143);
+    color: rgb(198, 51, 130);
 }
+
+.dark-mode{
+    background-color:  rgb(39, 33, 41); 
+    color: rgb(244, 244, 244);
+}
+
+
+
 
 
 
